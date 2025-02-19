@@ -4,7 +4,7 @@ version: 2.1
 jobs:
   lint:
     docker:
-      - image: node:22.13.1
+      - image: node:22.14.0
     resource_class: large
     parallelism: 10
 
