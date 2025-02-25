@@ -34,7 +34,7 @@ importers:
         version: 0.3.3
       '@vercel/analytics':
         specifier: 1.5.0
-        version: 1.5.0(next@14.2.24(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.85.0))(react@18.3.1)
+        version: 1.5.0(next@14.2.24(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.85.1))(react@18.3.1)
       a11y-react-emoji:
         specifier: 1.2.0
         version: 1.2.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -85,10 +85,10 @@ importers:
         version: 6.13.1
       next:
         specifier: 14.2.24
-        version: 14.2.24(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.85.0)
+        version: 14.2.24(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.85.1)
       next-i18next:
         specifier: 15.4.2
-        version: 15.4.2(i18next@24.2.2(typescript@5.7.3))(next@14.2.24(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.85.0))(react-i18next@15.4.1(i18next@24.2.2(typescript@5.7.3))(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)
+        version: 15.4.2(i18next@24.2.2(typescript@5.7.3))(next@14.2.24(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.85.1))(react-i18next@15.4.1(i18next@24.2.2(typescript@5.7.3))(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)
       next-mdx-remote:
         specifier: 5.0.0
         version: 5.0.0(@types/react@18.3.18)(react@18.3.1)
@@ -214,8 +214,8 @@ importers:
         specifier: 4.0.2
         version: 4.0.2(webpack@5.98.0)
       sass:
-        specifier: 1.85.0
-        version: 1.85.0
+        specifier: 1.85.1
+        version: 1.85.1
       typescript:
         specifier: 5.7.3
         version: 5.7.3
@@ -3464,8 +3464,8 @@ packages:
     resolution: {integrity: sha512-x/+Cz4YrimQxQccJf5mKEbIa1NzeCRNI5Ecl/ekmlYaampdNLPalVyIcCZNNH3MvmqBugV5TMYZXv0ljslUlaw==}
     engines: {node: '>= 0.4'}
 
-  sass@1.85.0:
-    resolution: {integrity: sha512-3ToiC1xZ1Y8aU7+CkgCI/tqyuPXEmYGJXO7H4uqp0xkLXUqp88rQQ4j1HmP37xSJLbCJPaIiv+cT1y+grssrww==}
+  sass@1.85.1:
+    resolution: {integrity: sha512-Uk8WpxM5v+0cMR0XjX9KfRIacmSG86RH4DCCZjLU2rFh5tyutt9siAXJ7G+YfxQ99Q6wrRMbMlVl6KqUms71ag==}
     engines: {node: '>=14.0.0'}
     hasBin: true
 
@@ -5250,9 +5250,9 @@ snapshots:
 
   '@ungap/structured-clone@1.2.0': {}
 
-  '@vercel/analytics@1.5.0(next@14.2.24(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.85.0))(react@18.3.1)':
+  '@vercel/analytics@1.5.0(next@14.2.24(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.85.1))(react@18.3.1)':
     optionalDependencies:
-      next: 14.2.24(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.85.0)
+      next: 14.2.24(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.85.1)
       react: 18.3.1
 
   '@webassemblyjs/ast@1.14.1':
@@ -7589,7 +7589,7 @@ snapshots:
 
   neo-async@2.6.2: {}
 
-  next-i18next@15.4.2(i18next@24.2.2(typescript@5.7.3))(next@14.2.24(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.85.0))(react-i18next@15.4.1(i18next@24.2.2(typescript@5.7.3))(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1):
+  next-i18next@15.4.2(i18next@24.2.2(typescript@5.7.3))(next@14.2.24(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.85.1))(react-i18next@15.4.1(i18next@24.2.2(typescript@5.7.3))(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1):
     dependencies:
       '@babel/runtime': 7.26.0
       '@types/hoist-non-react-statics': 3.3.6
@@ -7597,7 +7597,7 @@ snapshots:
       hoist-non-react-statics: 3.3.2
       i18next: 24.2.2(typescript@5.7.3)
       i18next-fs-backend: 2.6.0
-      next: 14.2.24(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.85.0)
+      next: 14.2.24(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.85.1)
       react: 18.3.1
       react-i18next: 15.4.1(i18next@24.2.2(typescript@5.7.3))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
 
@@ -7614,7 +7614,7 @@ snapshots:
       - '@types/react'
       - supports-color
 
-  next@14.2.24(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.85.0):
+  next@14.2.24(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.85.1):
     dependencies:
       '@next/env': 14.2.24
       '@swc/helpers': 0.5.5
@@ -7635,7 +7635,7 @@ snapshots:
       '@next/swc-win32-arm64-msvc': 14.2.24
       '@next/swc-win32-ia32-msvc': 14.2.24
       '@next/swc-win32-x64-msvc': 14.2.24
-      sass: 1.85.0
+      sass: 1.85.1
     transitivePeerDependencies:
       - '@babel/core'
       - babel-plugin-macros
@@ -8160,7 +8160,7 @@ snapshots:
       es-errors: 1.3.0
       is-regex: 1.2.1
 
-  sass@1.85.0:
+  sass@1.85.1:
     dependencies:
       chokidar: 4.0.0
       immutable: 5.0.2
